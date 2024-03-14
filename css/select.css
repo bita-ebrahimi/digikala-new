@@ -1,0 +1,148 @@
+.select{
+    width: 1336px;
+    height: 814px;
+    border: 1.25px solid rgb(224, 224, 226);
+    border-radius: 16px;
+    padding: 0 12px;
+    /*margin-right: 8px;*/
+    margin: 16px auto;
+}
+.select .title{
+    width: 1310px;
+    height: 77px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.select .title h3{
+    display: block;
+    width: 290px;
+    height: 45px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-right: 8px;
+}
+.select .product{
+    width: 1308px;
+    height: 729px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.select .product a{
+    width: 218px;
+    height: 244px;
+    padding: 12px 8px;
+    text-decoration: none;
+    /*display: flex;*/
+    /*justify-content: start;*/
+    border-left: 2px solid rgb(240, 240, 241);
+    border-bottom: 2px solid rgb(240, 240, 241);
+}
+.select .product a:nth-child(6){
+    border-left: none;
+}
+.select .product a:nth-child(12){
+    border-left: none;
+}
+.select .product a:nth-child(18){
+    border-left: none;
+    border-bottom: none;
+}
+.select .product a:nth-child(13){
+    border-bottom: none;
+}
+.select .product a:nth-child(14){
+    border-bottom: none;
+}
+.select .product a:nth-child(15){
+    border-bottom: none;
+}
+.select .product a:nth-child(16){
+    border-bottom: none;
+}
+.select .product a:nth-child(17){
+    border-bottom: none;
+}
+.select .product a .top{
+    width: 200px;
+    height: 150px;
+    margin: 0 0 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.select .product a .top .svg{
+    border: 2px solid red;
+    border-radius: 50% ;
+    display: flex;
+    margin: 0 8px 8px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.select .product a .top .img{
+    width: 150px;
+    height: 150px;
+    margin-right: 8px;
+}
+.select .product a .top .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.select .product a .down{
+    width: 200px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+.select .product a .down .price{
+    color: rgb(63, 64, 100);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    row-gap: 4px;
+}
+.select .product a .down .sale{
+    width: 34px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid ;
+    border-radius: 100px;
+    padding: 0 4px;
+    background-color: rgb(211, 47, 47);
+    color: white;
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+.select .product a .down .price{
+    color: rgb(63, 64, 100);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.select .product a .down s{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: rgb(192, 194, 197);
+    font-size: 12px;
+    font-weight: 400;
+}
+

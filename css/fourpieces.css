@@ -1,0 +1,296 @@
+.fourpieces{
+    width: 1334px;
+    height: 419px;
+    /*margin: 16px 8px 30px 0;*/
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 16px auto;
+}
+.fourpieces .first{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .first .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces .first .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces .first a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .first a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .first a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces .first a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .first a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .first a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .first a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .first a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces .first a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+
+    /*second*/
+.fourpieces .second{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .second .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces .second .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces .second a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .second a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .second a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces .second a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .second a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .second a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .second a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .second a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces .second a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+
+    /*third*/
+.fourpieces .third{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .third .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces .third .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces .third a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .third a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .third a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces .third a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .third a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .third a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .third a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .third a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces .third a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+
+    /* fourth */
+.fourpieces .fourth{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces .fourth .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces .fourth .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces .fourth a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .fourth a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces .fourth a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces .fourth a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .fourth a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .fourth a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .fourth a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces .fourth a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces .fourth a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}

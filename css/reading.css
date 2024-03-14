@@ -1,0 +1,77 @@
+.reading{
+    width: 1336px;
+    height: 346px;
+    display: block;
+    margin: 16px auto;
+}
+.reading .read{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.reading .read .title{
+    width: 1336px;
+    height: 80px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reading .read .title h5{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.reading .read .title .more{
+    width: 190px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reading .read .title .more span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+.reading .read .subject{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.reading .read .subject a{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-decoration: none;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 8px;
+}
+.reading .read .subject a .img{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+}
+.reading .read .subject a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reading .read .subject a .parag{
+    width: 100%;
+    height: 55px;
+   text-align: right;
+    padding: 0 16px;
+    margin: 8px 0 12px 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(12, 12, 12);
+}

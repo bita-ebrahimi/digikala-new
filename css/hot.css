@@ -1,0 +1,157 @@
+.hotest{
+    width: 1336px;
+    height: 405px;
+    /*margin-right: 8px;*/
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 16px;
+    padding-left: 8px;
+    /*margin-top: 16px;*/
+    margin: 0 auto;
+}
+.hotest .title{
+    width: 1334px;
+    height: 45px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 8px;
+}
+.hotest .title span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 45px;
+    margin-left: 8px;
+    color: rgb(25, 191, 211);
+    font-size: 14px;
+}
+.hotest .title .parag{
+    font-size: 21px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.hotest .swiper {
+    width: 100%;
+    height:calc(100% - 45px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hotest .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 3) !important;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotest .swiper-slide a{
+    width: 315px;
+    height: 86px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hotest .swiper-slide a .img{
+    width: 86px;
+    height: 86px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+.hotest .swiper-slide a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hotest .swiper-slide a span{
+    color: rgb(25, 191, 211);
+    font-size: 26px;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.hotest .swiper-slide a .p{
+    width: 198px;
+    height: 86px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.hotest .swiper-slide a .p p{
+    width: 100%;
+    height: 53px;
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    line-height: 30px;
+}
+.hotest .swiper-slide:nth-child(3)  a .p{
+    border-bottom: none;
+}
+.hotest .swiper-slide:nth-child(6)  a .p{
+    border-bottom: none;
+}
+.hotest .swiper-slide:nth-child(9)  a .p{
+    border-bottom: none;
+}
+.hotest .swiper-slide:nth-child(12)  a .p{
+    border-bottom: none;
+}
+.hotest .swiper-slide:nth-child(15)  a .p{
+    border-bottom: none;
+}
+.hotest .swiper-slide:nth-child(18)  a .p{
+    border-bottom: none;
+}
+.hotest .swiper-button-disabled{
+    opacity: 0;
+}
+.hotest .swiper-button-prev{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.hotest .swiper-button-next{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.hotest .swiper-button-prev::after{
+    font-size: 12px;
+    color: rgb(66, 71, 80);
+    font-weight: bold;
+}
+.hotest .swiper-button-next::after{
+    font-size: 12px;
+    color: rgb(66, 71, 80);
+    font-weight: bold;
+}
+.hotest .swiper-button-prev::after{
+    font-size: 12px;
+    color: rgb(66, 71, 80);
+    font-weight: bold;
+}
+.hotest .swiper-button-next::after{
+    font-size: 12px;
+    color: rgb(66, 71, 80);
+    font-weight: bold;
+}

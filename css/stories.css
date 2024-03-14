@@ -1,0 +1,77 @@
+.stories{
+    width: 1336px;
+    height: 155px;
+    padding-top: 16px;
+    display: block;
+    /*margin:0 239px 0 239px;*/
+}
+.stories .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.stories .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stories .swiper-slide a{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap: 8px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.stories .swiper-slide a .img{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    border: 2px solid rgb(33, 76, 135);
+    padding: 3px;
+}
+.stories .swiper-slide a .caption{
+    width: 84px;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(35, 37, 78);
+    line-height: 23px;
+}
+.stories .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.stories .swiper-button-disabled{
+    opacity: 0;
+}
+.stories .swiper-button-prev{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.stories .swiper-button-next{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.stories .swiper-button-prev::after{
+    font-size: 12px;
+    color: rgb(66, 71, 80);
+    font-weight: bold;
+}
+.stories .swiper-button-next::after{
+    font-size: 12px;
+    color: rgb(66, 71, 80);
+    font-weight: bold;
+}

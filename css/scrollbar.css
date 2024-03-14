@@ -1,0 +1,49 @@
+/* width */
+body:body:-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #bbb;
+}
+
+
+    border-radius: 8px;
+/* width */
+.menu__nav2-2:body:-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.menu__nav2-2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.menu__nav2-2::-webkit-scrollbar-thumb {
+    background: #bbb;
+        border-radius: 8px;
+}
+
+
+..menu__list2-1:body:-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+..menu__list2-1::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+..menu__list2-1::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 8px;
+
+

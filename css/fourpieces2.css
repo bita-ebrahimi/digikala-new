@@ -1,0 +1,297 @@
+.fourpieces2{
+    width: 1334px;
+    height: 419px;
+    /*margin: 16px 8px 30px 0;*/
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 auto;
+}
+.fourpieces2 .first{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .first .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces2 .first .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces2 .first a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .first a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .first a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces2 .first a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .first a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .first a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .first a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .first a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces2 .first a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+
+/*second*/
+.fourpieces2 .second{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .second .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces2 .second .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces2 .second a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .second a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .second a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces2 .second a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .second a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .second a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .second a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .second a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces2 .second a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+
+/*third*/
+.fourpieces2 .third{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .third .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces2 .third .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces2 .third a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .third a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .third a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces2 .third a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .third a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .third a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .third a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .third a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces2 .third a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}
+
+/* fourth */
+.fourpieces2 .fourth{
+    width: 333px;
+    height: 417px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .fourth .text{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.fourpieces2 .fourth .text .parag{
+    text-align: start;
+    color: rgb(129, 133, 139);
+    font-size: 11px;
+    font-weight: 400;
+}
+.fourpieces2 .fourth a{
+    width: 293px;
+    height: 293px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .fourth a .img{
+    width:50%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.fourpieces2 .fourth a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fourpieces2 .fourth a .img:first-child{
+    border-left: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .fourth a .img:nth-child(2) {
+    border-right: 1px solid rgb(224, 224, 226);
+    border-bottom: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .fourth a .img:nth-child(3) {
+    border-left: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .fourth a .img:last-child {
+    border-right: 1px solid rgb(224, 224, 226);
+}
+.fourpieces2 .fourth a .view{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourpieces2 .fourth a .view span{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(25, 191, 211);
+}

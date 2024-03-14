@@ -1,0 +1,100 @@
+.slider2{
+    width: 2724px;
+    height: 400px;
+    margin-top: 10px;
+    position: relative;
+}
+.slider2 button{
+    width: 55px;
+    height: 55px;
+    padding: 12px;
+    position: fixed;
+    left: 3%;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(239, 64, 86);
+    background-attachment: scroll;
+    border: 1px solid rgb(239, 64, 86);
+    border-radius: 50%;
+    z-index: 1000;
+}
+.slider2 button .svg{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider2 .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.slider2 .swiper-slide {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider2 .swiper-slide a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider2 .swiper-slide a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider2 .swiper-button-disabled{
+    opacity: 1;
+}
+.slider2 .swiper-button-prev {
+    background-color: white;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 50px;
+    top: 85%;
+}
+.slider2 .swiper-button-next{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 90%;
+    top: 85%;
+}
+.slider2 .swiper-button-prev::after{
+    font-size: 16px;
+    color: rgb(63, 64, 100);
+    font-weight: bold;
+}
+.slider2 .swiper-button-next::after{
+    font-size: 16px;
+    color: rgb(63, 64, 100);
+    font-weight: bold;
+}
+.slider2 .swiper-pagination-bullet{
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+}
+.slider2 .swiper-pagination-bullet-active{
+    width: 16px;
+    height: 6px;
+    background-color: white;
+    border-radius: 100px;
+    transition: all 150ms linear;
+}
